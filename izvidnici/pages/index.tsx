@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-[929px] border-blue-400  border-8">
+        <section className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-[929px] border-blue-400 border-8">
         <div>
       <Image 
          src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
