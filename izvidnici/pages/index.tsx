@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image,{ImageProps} from 'next/image'
-import { Inter } from 'next/font/google'
 import logo from '../public/logo.png'
 
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
          src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
       />
     </div>
-        <nav className="absolute top-0 right-0 mt-2 mr-2 p-5 font-serif text-lg ">
+        <nav className="absolute top-0 right-0 mt-2 mr-2 p-5 text-lg ">
       <ul className="flex space-x-10 ">
         <li className="mr-6 text-white "><a href="#">За Нас</a></li>
         <li className="mr-6 text-white hover:underline"><a href="galery.html">Галерија</a></li>
@@ -34,9 +33,9 @@ export default function Home() {
   
       <div className='absolute inset-0 flex items-center justify-center m-3.5'>
       <ul>
-      <li className="text-white text-6xl text-center underline-offset-1 font-serif">Извиднички Одред  </li>
-      <li className="text-white text-6xl text-center underline-offset-1 font-serif">Наум Наумовски- Борче </li>
-      <li className="text-yellow-400 text-4xl text-center underline-offset-1 font-serif "> Создаваме подобар свет / Creating a better world</li>
+      <li className="text-white text-6xl text-center underline-offset-1 ">Извиднички Одред  </li>
+      <li className="text-white text-6xl text-center underline-offset-1 ">Наум Наумовски- Борче </li>
+      <li className="text-yellow-400 text-4xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
       </ul>
       </div>
   
