@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Galery from '@/pages/Galery';
 
 
 export interface ImageSliderProps{
@@ -11,10 +12,13 @@ export interface ImageSliderProps{
 
 export default function ImageSlider({width,height,items}:
   ImageSliderProps ) {
-  return <main>
-<div>
+  return<div>
+    {
+      items.map((item,index) =>(
+        <ImageSliderItem key={index}></ImageSliderItem>
+      ))
+    }
+       </div>
     
-</div>
-    </main>
   
 }
