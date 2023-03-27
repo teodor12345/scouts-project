@@ -3,6 +3,12 @@ import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
 import ImageSlider from '../src/components/ImageSlider'
 
+import card1 from '../public/izvidnicileto1.jpg';
+import card2 from '../public/izvidnicileto2.jpg';
+import card3 from '../public/izvidniciStaneckiVodopadi1.jpg';
+import card4 from '../public/izvidniciStanci4.jpg';
+import card5 from '../public/izvidniciStaneckiVodopadi2.jpg';
+
 export default function Galery() {
   return<main>
     
@@ -24,11 +30,9 @@ export default function Galery() {
     </nav>
     <div className=" flex w-full flex-col flex-1 items-center justify-center px-20 text-center">
      <div className=" mb-10 flex flex-col justify-center space-y-6  ">
-      <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid quis consequuntur possimus 
-        temporibus molestias quo nostrum est porro ipsum veritatis soluta reprehenderit, labore eum eaque itaque,
-         voluptas iste, minima quibusdam.</h1>
+      <ImageSlider items ={[]} />
      </div>
     </div>
-       </main>
+      </main>
   
 }
