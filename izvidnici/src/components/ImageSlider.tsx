@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Galery from '@/pages/Galery';
+import CaruselItem from './CaruselItem';
 
 
 export interface ImageSliderProps{
@@ -15,7 +16,9 @@ export default function ImageSlider({width,height,items}:
   return<div>
     {
       items.map((item,index) =>(
-        <ImageSliderItem key={index}></ImageSliderItem>
+        <CaruselItem key={index}>
+          
+        </CaruselItem>
       ))
     }
        </div>

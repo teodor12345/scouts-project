@@ -10,11 +10,11 @@ import card4 from '../public/izvidniciStanci4.jpg';
 import card5 from '../public/izvidniciStaneckiVodopadi2.jpg';
 
 const ImageItems = [
-  <Image className=" h-full w-full " src={card1} alt="card1" />,
-  <Image className=" h-full w-full " src={card2} alt="card2" />,
-  <Image className=" h-full w-full " src={card3} alt="card3" />,
-  <Image className=" h-full w-full " src={card4} alt="card4" />,
-  <Image className=" h-full w-full " src={card5} alt="card5" />,  
+  <Image className=" h-full w-full " src={card1} alt="card1" /> ,
+  <Image className=" h-full w-full " src={card2} alt="card2" /> ,
+  <Image className=" h-full w-full " src={card3} alt="card3" /> ,
+  <Image className=" h-full w-full " src={card4} alt="card4" /> ,
+  <Image className=" h-full w-full " src={card5} alt="card5" /> , 
 ]
 
 
@@ -40,7 +40,7 @@ export default function Galery() {
     </nav>
     <div className=" flex w-full flex-col flex-1 items-center justify-center px-20 text-center">
      <div className=" mb-10 flex flex-col justify-center space-y-6  ">
-      <ImageSlider items ={ImageItems} />
+      <ImageSlider items ={[]} />
      </div>
     </div>
       </main>
