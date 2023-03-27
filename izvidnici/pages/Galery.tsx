@@ -23,7 +23,7 @@ export default function Galery() {
       </ul>
     </nav>
     <div className=" flex w-full flex-col flex-1 items-center justify-center px-20 text-center">
-     <div className=" mb-10 flex flex-col justify-center space-y-6 ">
+     <div className=" mb-10 flex flex-col justify-center space-y-6  ">
       <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid quis consequuntur possimus 
         temporibus molestias quo nostrum est porro ipsum veritatis soluta reprehenderit, labore eum eaque itaque,
          voluptas iste, minima quibusdam.</h1>
