@@ -36,7 +36,7 @@ export default function Home() {
       <ul>
       <li className="text-white text-7xl text-center underline-offset-1 ">Извиднички Одред  </li>
       <li className="text-white text-7xl text-center underline-offset-1 ">Наум Наумовски- Борче </li>
-      <li className="text-yellow-400 text-5xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
+      <li className="text-yellow-500 text-5xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
       </ul>
       </div>
   
