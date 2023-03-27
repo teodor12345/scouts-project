@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { Children } from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
-import ImageSlider from '../src/components/ImageSlider'
+import Carousel from '@/src/components/Carousel';
+
 
 import card1 from '../public/izvidnicileto1.jpg';
 import card2 from '../public/izvidnicileto2.jpg';
@@ -40,7 +41,7 @@ export default function Galery() {
     </nav>
     <div className=" flex w-full flex-col flex-1 items-center justify-center px-20 text-center">
      <div className=" mb-10 flex flex-col justify-center space-y-6  ">
-      <ImageSlider items ={[]} />
+      
      </div>
     </div>
       </main>
