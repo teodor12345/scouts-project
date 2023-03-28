@@ -1,7 +1,7 @@
 import React from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
-import ImageSlider from '../src/components/ImageSlider'
+
 
 export default function Experiences() {
   return <main>
