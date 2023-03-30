@@ -39,8 +39,23 @@ export default function Home() {
       <li className="text-yellow-500 text-5xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
       </ul>
       </div>
-  
-        </section>
+     </section>
+    <section>
+      <article className="flex h-[550px]">
+        <h1 className=" text-lg[550px] items-center justify-center text-blue-500 font-poppins text-bold">За Нас</h1>
+        <h2> article evry time changed with new action </h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere atque 
+        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
+         doloremque ipsam quos nam! Quidem, porro ess Lorem ipsum <br></br>dolor 
+         sit amet consectetur adipisicing elit. At facere atque, eos qui 
+        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
+         doloremque ipsam quos nam! Quidem, porro ess Lorem ipsum <br></br>dolor 
+         sit amet consectetur adipisicing elit. At facere atque, eos qui 
+        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
+         doloremque ipsam quos nam! Quidem, porro ess
+      </article>
+    </section>
+
       </main>
     </div>
   )
