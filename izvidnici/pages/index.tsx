@@ -45,7 +45,7 @@ export default function Home() {
       <div className=" w-4/5 ">
     <h1 className="text-6xl font-bold mb-4 text-blue-500">Article Title</h1>
     <h2 className=" text-3xl font-bold mb-4 text-blue-500  ">Lorem ipsoukm</h2>
-    <p className="text-gray-600 text-lg mb-8  ">
+    <p className="text-gray-600 text-lg mb-8 ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
       ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
        nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
