@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-[929px] border-blue-400 border-8">
+        <section className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-[929px] w-full border-blue-400 border-8">
         <div>
       <Image 
          src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
@@ -41,22 +41,33 @@ export default function Home() {
       </div>
      </section>
     <section>
-      <article className="flex h-[550px]">
-        <h1 className=" text-lg[550px] items-center justify-center text-blue-500 font-poppins text-bold">За Нас</h1>
-        <h2> article evry time changed with new action </h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At facere atque 
-        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
-         doloremque ipsam quos nam! Quidem, porro ess Lorem ipsum <br></br>dolor 
-         sit amet consectetur adipisicing elit. At facere atque, eos qui 
-        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
-         doloremque ipsam quos nam! Quidem, porro ess Lorem ipsum <br></br>dolor 
-         sit amet consectetur adipisicing elit. At facere atque, eos qui 
-        amet illum suscipit ad id voluptates cupiditate placeat molestias veniam
-         doloremque ipsam quos nam! Quidem, porro ess
-      </article>
+      <div className="flex justify-start items-start w-[900px] py-[100px]">
+      <div className="w-4/5">
+    <h1 className="text-6xl font-bold mb-4">Article Title</h1>
+    <h2 className="text-3xl font-bold mb-4 ">Lorem</h2>
+    <p className="text-gray-600 text-lg mb-8 ">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+   
+     </div>
+     </div>
     </section>
 
-      </main>
+    </main>
     </div>
   )
 }
