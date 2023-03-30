@@ -19,10 +19,10 @@ export default function Home() {
         <section className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-[929px] w-full border-blue-400 border-8">
         <div>
       <Image 
-         src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
+         src={logo} alt="placeholder" className=" w-32 h-32 mr-2 p-3"
       />
     </div>
-        <nav className="  absolute top-0 right-0 mt-6 mr-5 p-5 text-lg    ">
+        <nav className="  absolute top-0 right-0 mt-6 mr-5 p-5 text-xl    ">
       <ul className="flex space-x-10 ">
         <li className="mr-6 text-white "><a href="#">За Нас</a></li>
         <li className="mr-6 text-white hover:underline"><a href="galery.html">Галерија</a></li>
@@ -36,15 +36,15 @@ export default function Home() {
       <ul>
       <li className="text-white text-7xl text-center underline-offset-1 ">Извиднички Одред  </li>
       <li className="text-white text-7xl text-center underline-offset-1 ">Наум Наумовски- Борче </li>
-      <li className="text-yellow-500 text-5xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
+      <li className="text-yellow-400 text-5xl text-center underline-offset-1  "> Создаваме подобар свет / Creating a better world</li>
       </ul>
       </div>
      </section>
     <section>
-      <div className="flex justify-start items-start w-[900px] py-[100px]">
-      <div className="w-4/5">
+      <div className="flex justify-start items-start w-[1000px] py-[100px] px-[50px]">
+      <div className=" w-4/5 ">
     <h1 className="text-6xl font-bold mb-4">Article Title</h1>
-    <h2 className="text-3xl font-bold mb-4 ">Lorem</h2>
+    <h2 className=" text-3xl font-bold mb-4   ">Lorem ipsoukm</h2>
     <p className="text-gray-600 text-lg mb-8 ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
       ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
