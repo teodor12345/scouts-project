@@ -1,65 +1,66 @@
-import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "react-feather";
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react";
 
-interface CarouselProps {
-  children: JSX.Element[];
-  autoSlide?: boolean;
-  autoSlideInterval?: number;
+const images = [
+  "/public/izvidnicileto1.png",
+  "/public/izvidnicileto2.png",
+  "/public/izvidniciStanci4.png",
+  "/public/izvidniciStaneckiVodopadi1.png",
+  "/public/izvidniciStaneckiVodopadi2.png",
+];
+
+interface Props {
+  images: string[];
 }
 
-export default function Carousel({
-  children: slides,
-  autoSlide = false,
-  autoSlideInterval = 3000,
-}: CarouselProps) {
-  const [curr, setCurr] = useState<number>(0);
+const Carousel = ({ images }: Props) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const prev = () =>
-    setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
-  const next = () =>
-    setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
+  const handlePrevClick = () => {
+    setCurrentIndex((prevIndex) => prevIndex === 0 ? images.length - 1 : prevIndex - 1);
+  };
 
-  useEffect(() => {
-    if (!autoSlide) return;
-    const slideInterval = setInterval(next, autoSlideInterval);
-    return () => clearInterval(slideInterval);
-  }, []);
+  const handleNextClick = () => {
+    setCurrentIndex((prevIndex) => prevIndex === images.length - 1 ? 0 : prevIndex + 1);
+  };
+
   return (
-    <div className="overflow-hidden relative">
-      <div
-        className="flex transition-transform ease-out duration-500"
-        style={{ transform: `translateX(-${curr * 100}%)` }}
-      >
-        {slides}
-      </div>
-      <div className="absolute inset-0 flex items-center justify-between p-4">
+    <div className="relative">
+      <div className="flex items-center justify-between absolute top-1/2 w-full z-10">
         <button
-          onClick={prev}
-          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+          className="bg-white bg-opacity-50 p-2 rounded-full shadow-md hover:bg-opacity-100"
+          onClick={handlePrevClick}
         >
-          <ChevronLeft size={40} />
+          <ChevronLeftIcon className="h-6 w-6 text-gray-800" />
         </button>
         <button
-          onClick={next}
-          className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
+          className="bg-white bg-opacity-50 p-2 rounded-full shadow-md hover:bg-opacity-100"
+          onClick={handleNextClick}
         >
-          <ChevronRight size={40} />
+          <ChevronRightIcon className="h-6 w-6 text-gray-800" />
         </button>
       </div>
-
-      <div className="absolute bottom-4 right-0 left-0">
-        <div className="flex items-center justify-center gap-2">
-          {slides.map((_, i) => (
-            <div
-              key={i}
-              className={`
-              transition-all w-3 h-3 bg-white rounded-full
-              ${curr === i ? "p-2" : "bg-opacity-50"}
-            `}
+      <div className="relative w-full h-96">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className={`absolute top-0 left-0 w-full h-full transition-opacity duration-500 ease-in-out ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Image
+              src={image}
+              alt={`Image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              quality={100}
             />
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );
-}
+};
+
+export default Carousel;

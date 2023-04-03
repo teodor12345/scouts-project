@@ -6,6 +6,7 @@ import logo from '../public/logo.png'
 
 
 
+
 export default function Home() {
   return (
     <div className="h-full">

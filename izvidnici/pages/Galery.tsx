@@ -1,17 +1,13 @@
 import React, { Children } from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
-import Carousel from '../src/components/Carousel'
+import Carousel from "../src/components/Carousel";
 
-
-import card1 from '../public/izvidnicileto1.jpg';
-import card2 from '../public/izvidnicileto2.jpg';
-import card3 from '../public/izvidniciStaneckiVodopadi1.jpg';
-import card4 from '../public/izvidniciStanci4.jpg';
-import card5 from '../public/izvidniciStaneckiVodopadi2.jpg';
-
-
-
+const images = [
+  "/images/image1.jpg",
+  "/images/image2.jpg",
+  "/images/image3.jpg",
+];
 
 
 export default function Galery() {
@@ -38,6 +34,7 @@ export default function Galery() {
       <h1>Testing testing</h1>
      </div>
     </div>
+    
       </main>
   
 }
