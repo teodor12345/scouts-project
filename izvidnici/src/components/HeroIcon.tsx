@@ -1,4 +1,4 @@
-import { IconName } from '@heroicons/react/24/solid'
+import { IconName } from "@heroicons/react/24/solid"
 import { ChevronLeftSolid, ChevronRightSolid } from "@heroicons/react/24/solid";
 
 
