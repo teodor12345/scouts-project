@@ -2,20 +2,12 @@ import { useState } from "react";
 import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
-const images = [
-  "/public/izvidnicileto1.png",
-  "/public/izvidnicileto2.png",
-  "/public/izvidniciStanci4.png",
-  "/public/izvidniciStaneckiVodopadi1.png",
-  "/public/izvidniciStaneckiVodopadi2.png",
-];
-
 
 interface CarouselProps {
-  children: JSX.Element[];
+  slides: string[];
 }
 
-export default function Carousel({ children: slides }: CarouselProps) {
+export default function Carousel({ slides }: CarouselProps) {
   const [curr, setCurr] = useState<number>(0);
 
   const prev = () =>
@@ -29,7 +21,11 @@ export default function Carousel({ children: slides }: CarouselProps) {
         className="flex overflow-hidden transition-transform ease-out duration-500"
         style={{ transform: `translateX(-${curr * 100}%)` }}
       >
-        {slides}
+        {slides.map((slide, i) => (
+          <div key={i} className="w-full">
+            <Image src={slide} alt="" width={1200} height={600} objectFit="cover" />
+          </div>
+        ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between px-4">
         <button

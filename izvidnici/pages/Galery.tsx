@@ -4,7 +4,13 @@ import logo from '../public/logo.png'
 import Carousel from '../src/components/Carousel';
 
 
-
+const images = [
+  "/izvidniciLeto1.jpg",
+  "/izvidniciLeto2.jpg",
+  "/izvidniciStanci4.jpg",
+  "/izvidniciStaneckiVodopadi.jpg",
+  "/izvidniciStaneckiVodopadi.jpg"
+];
 
 
 export default function Galery() {
@@ -31,7 +37,9 @@ export default function Galery() {
       <h1>Testing testing</h1>
      </div>
      <Carousel>
-        {}
+        {
+        
+        }
       </Carousel>
     </div>
     
