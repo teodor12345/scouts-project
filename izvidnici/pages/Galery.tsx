@@ -1,13 +1,10 @@
 import React, { Children } from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
-import Carousel from "../src/components/Carousel";
+import Carousel from '../src/components/Carousel';
 
-const images = [
-  "/images/image1.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
-];
+
+
 
 
 export default function Galery() {
@@ -33,6 +30,9 @@ export default function Galery() {
      <div className=" mb-10 flex flex-col justify-center space-y-6  ">
       <h1>Testing testing</h1>
      </div>
+     <Carousel>
+        {}
+      </Carousel>
     </div>
     
       </main>
