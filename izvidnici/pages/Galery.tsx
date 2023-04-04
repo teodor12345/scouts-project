@@ -4,7 +4,7 @@ import logo from '../public/logo.png'
 import Carousel from '../src/components/Carousel';
 
 
-const images = [
+const slides = [
   "/izvidniciLeto1.jpg",
   "/izvidniciLeto2.jpg",
   "/izvidniciStanci4.jpg",
@@ -36,11 +36,7 @@ export default function Galery() {
      <div className=" mb-10 flex flex-col justify-center space-y-6  ">
       <h1>Testing testing</h1>
      </div>
-     <Carousel>
-        {
-        
-        }
-      </Carousel>
+      <Carousel slides={slides} />
     </div>
     
       </main>
