@@ -8,8 +8,8 @@ const slides = [
   "/izvidniciLeto1.jpg",
   "/izvidniciLeto2.jpg",
   "/izvidniciStanci4.jpg",
-  "/izvidniciStaneckiVodopadi.jpg",
-  "/izvidniciStaneckiVodopadi.jpg"
+  "/izvidniciStaneckiVodopadi1.jpg",
+  "/izvidniciStaneckiVodopadi2.jpg",
 ];
 
 
@@ -33,10 +33,10 @@ export default function Galery() {
       </ul>
     </nav>
     <div className=" flex w-full flex-col flex-1 items-center justify-center px-20 text-center">
-     <div className=" mb-10 flex flex-col justify-center space-y-6  ">
-      <h1>Testing testing</h1>
+     <div className=" mb-16 flex flex-col justify-center space-y-6  ">
+      <h1></h1>
      </div>
-      <Carousel slides={slides} />
+      <Carousel slides={slides}/>
     </div>
     
       </main>

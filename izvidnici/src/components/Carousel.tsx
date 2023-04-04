@@ -23,8 +23,9 @@ export default function Carousel({ slides }: CarouselProps) {
       >
         {slides.map((slide, i) => (
           <div key={i} className="w-full">
-            <Image src={slide} alt="" width={1200} height={600} objectFit="cover" />
+            <Image src={slide} alt="" width={1500} height={1500} objectFit="cover" />
           </div>
+          
         ))}
       </div>
       <div className="absolute inset-0 flex items-center justify-between px-4">
@@ -32,13 +33,13 @@ export default function Carousel({ slides }: CarouselProps) {
           onClick={prev}
           className="p-2 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-          <ChevronLeftIcon className="w-6 h-6" />
+          <ChevronLeftIcon className="w-10 h-10" />
         </button>
         <button
           onClick={next}
           className="p-2 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white"
         >
-          <ChevronRightIcon className="w-6 h-6" />
+          <ChevronRightIcon className="w-10 h-10" />
         </button>
       </div>
     </div>
