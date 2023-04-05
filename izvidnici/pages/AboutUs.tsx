@@ -1,6 +1,8 @@
 import React from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
+import { url } from 'inspector'
+
 
 
 export default function Experiences() {
@@ -49,8 +51,7 @@ export default function Experiences() {
      </div>
     </section>
     <section>
-    <div className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-full w-full border-blue-400 border-4">
-         <h1 className="text-white text-8xl text-center underline-offset-1 m-48">За Нас</h1>
+    <div className="bg-[url('/SnegPlanina.png')]   bg-center bg-no-repeat bg-cover flex items-center justify-center ">
          
      </div>
      <p className="text-gray-600 text-lg mt-28 ">
