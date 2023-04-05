@@ -11,7 +11,7 @@ export default function Experiences() {
         <Image 
            src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
         />
-         <h1 className="text-white text-8xl text-center underline-offset-1 m-48">Искуства</h1>
+         <h1 className="text-white text-8xl text-center underline-offset-1 m-48">Активности</h1>
      </div>
       <nav className="  absolute top-0 right-0 mt-8 mr-5 p-5 text-lg    ">
         <ul className="flex space-x-10 text-xl ">

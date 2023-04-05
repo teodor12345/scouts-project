@@ -27,7 +27,7 @@ export default function Home() {
       <ul className="flex space-x-10 ">
         <li className="mr-6 text-white "><a href="#">За Нас</a></li>
         <li className="mr-6 text-white hover:underline"><a href="galery.html">Галерија</a></li>
-        <li className="mr-6 text-white"><a href="#">Патеки</a></li>
+        <li className="mr-6 text-white"><a href="#">Активности</a></li>
         <li className="mr-6 text-white"><a href="#">Искуства</a></li>
         <li className="text-white"><a href="#">Контакт</a></li>
       </ul>
