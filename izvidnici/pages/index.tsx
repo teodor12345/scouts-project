@@ -70,15 +70,15 @@ export default function Home() {
      </div>
     </section>
       <section>
-      <div className="h-[900px] bg-gradient-to-r from-blue-300 to-blue-700 pt-32  border-blue-400 border-8 ">
+      <div className="h-[1000px] bg-gradient-to-r from-blue-300 to-blue-700 pt-32  border-blue-400 border-8 ">
         <h1 className="text-white text-7xl text-center underline-offset-1" >Придобивки од извидништвото </h1>
         <h2  className='text-white text-7xl text-center underline-offset-1'> за тебе!!!</h2>
         <ul className=" flex-col grid grid-cols-2 grid-flow-col gap-2 p-36 ">
-          <li>
+          <li className=" bg-white w-[340px] h-[400px]">
             <Image
-             src={pridobivki1} alt='placeholder'/>
+             src={pridobivki1} alt='placeholder' className=" justify-center items-center p-12"/>
           </li>
-          <li>
+          <li >
             <Image 
             src={pridobivki2} alt='placeholder' />
           </li>
