@@ -68,8 +68,8 @@ export default function Home() {
      </div>
     </section>
       <section>
-      <div className="h-[900px] bg-gradient-to-r from-blue-300 to-blue-700  border-blue-400 border-8 ">
-        <h1></h1>
+      <div className="h-[800px] bg-gradient-to-r from-blue-300 to-blue-700 pt-32  border-blue-400 border-8 ">
+        <h1 className="text-white text-7xl text-center underline-offset-1" >Придобивки од извидништвото </h1>
       </div>
       </section>
     </main>
