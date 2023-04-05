@@ -2,6 +2,7 @@ import React from 'react'
 import Image,{ImageProps} from 'next/image'
 import logo from '../public/logo.png'
 import { url } from 'inspector'
+import SnegPlanina from '../public/SnegPlanina.png'
 
 
 
@@ -11,7 +12,7 @@ export default function Experiences() {
     <div className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-full w-full border-blue-400 border-8">
         
         <Image 
-           src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3"
+           src={logo} alt="placeholder" className=" w-28 h-28 mr-2 p-3 "
         />
          <h1 className="text-white text-8xl text-center underline-offset-1 m-48">За Нас</h1>
      </div>
@@ -51,8 +52,10 @@ export default function Experiences() {
      </div>
     </section>
     <section>
-    <div className="bg-[url('/SnegPlanina.png')]   bg-center bg-no-repeat bg-cover flex items-center justify-center ">
-         
+    <div >
+    <Image 
+           src={SnegPlanina} alt="placeholder" className=" w-28 h-28 mr-96 p-3 justify-center items-center"
+        />
      </div>
      <p className="text-gray-600 text-lg mt-28 ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
