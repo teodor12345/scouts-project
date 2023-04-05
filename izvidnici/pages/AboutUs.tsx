@@ -22,6 +22,90 @@ export default function Experiences() {
           <li className="text-white"><a href="#">Контакт</a></li>
         </ul>
       </nav>
+      <section>
+      <div className="flex justify-start items-start w-[1000px] py-[100px] px-[50px]">
+      <div className=" w-4/5 ">
+    <h1 className="text-6xl font-bold mb-4 text-blue-500">Article Title</h1>
+    <h2 className=" text-3xl font-bold mb-4 text-blue-500  ">Lorem ipsoukm</h2>
+    <p className="text-gray-600 flex w-fit text-lg mb-8 ">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+   
+     </div>
+     </div>
+    </section>
+    <section>
+    <div className="bg-[url('/homepage.jpg')]  bg-cover bg-center ... h-full w-full border-blue-400 border-4">
+         <h1 className="text-white text-8xl text-center underline-offset-1 m-48">За Нас</h1>
+         
+     </div>
+     <p className="text-gray-600 text-lg mt-28 ">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+    <p className="text-gray-600 text-lg mt-14 ">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+    <p className="text-gray-600 text-lg mt-14 ">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+    
+    </section>
          </main>
   
 }
