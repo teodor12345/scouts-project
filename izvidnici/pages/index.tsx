@@ -67,7 +67,11 @@ export default function Home() {
      </div>
      </div>
     </section>
-
+      <section>
+      <div className="h-[900px] bg-gradient-to-r from-blue-300 to-blue-700  border-blue-400 border-8 ">
+        <h1></h1>
+      </div>
+      </section>
     </main>
     </div>
   )
