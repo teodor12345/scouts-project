@@ -52,12 +52,31 @@ export default function Experiences() {
      </div>
     </section>
     <section>
-    <div >
+    <div className='flex justify-center items-center '>
+        
     <Image 
-           src={SnegPlanina} alt="placeholder" className=" w-28 h-28 mr-96 p-3 justify-center items-center"
+           src={SnegPlanina} alt="placeholder" className=" w-[1800px] h-[600px]  border-blue-400 border-8 "
         />
      </div>
-     <p className="text-gray-600 text-lg mt-28 ">
+     <div>
+     <p className="text-gray-600 text-lg mt-28 text-center justify-start items-center w-[1700px] pr-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+      nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+      libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+      neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
+      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
+       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
+       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
+       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
+    </p>
+    <p className="text-gray-600 text-lg mt-14 w-[1700px] text-center justify-start items-center ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
       ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
        nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
@@ -74,7 +93,7 @@ export default function Experiences() {
        libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
        neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
     </p>
-    <p className="text-gray-600 text-lg mt-14 ">
+    <p className="text-gray-600 text-lg mt-14 w-[1700px] text-center justify-start items-center ">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
       ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
        nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
@@ -91,24 +110,7 @@ export default function Experiences() {
        libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
        neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
     </p>
-    <p className="text-gray-600 text-lg mt-14 ">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
-      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
-       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
-       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
-       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna.
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
-      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
-       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
-       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
-       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. S
-      ed vitae lorem vel nunc ultricies sodales. Sed vel suscipit est. Donec in
-       nulla sed elit dapibus eleifend. Proin faucibus posuere urna. Ut congue 
-       libero non dolor commodo, non auctor felis sollicitudin. Nullam fringilla 
-       neque a ex dictum, at posuere nulla ultrices. Pellentesque eget tristique urna
-    </p>
-    
+    </div>
     </section>
          </main>
   
