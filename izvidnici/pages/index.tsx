@@ -70,21 +70,35 @@ export default function Home() {
      </div>
     </section>
       <section>
-      <div className="h-[1000px] bg-gradient-to-r from-blue-300 to-blue-700 pt-32  border-blue-400 border-8 ">
+      <div className="h-[1100px] bg-gradient-to-r from-blue-300 to-blue-700 pt-32  border-blue-400 border-8 ">
         <h1 className="text-white text-7xl text-center underline-offset-1" >Придобивки од извидништвото </h1>
         <h2  className='text-white text-7xl text-center underline-offset-1'> за тебе!!!</h2>
         <ul className=" flex-col grid grid-cols-2 grid-flow-col gap-2 p-36 ">
-          <li className=" bg-white w-[340px] h-[400px]">
+
+          <li className=" bg-white w-[380px] h-[550px] p-10 border-blue-400 border-8 justify-center items-center text-center ">
             <Image
-             src={pridobivki1} alt='placeholder' className=" justify-center items-center p-12"/>
+             src={pridobivki1} alt='placeholder' /> <p  className=" text-xl font-bold p-12 ">
+              Ментално Здравје</p>
+               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-6  rounded">
+              Дознај Повеќе
+            </button>
           </li>
-          <li >
+          <li className=" bg-white w-[380px] h-[550px]  p-14  border-blue-400 border-8 justify-center items-center text-center">
             <Image 
-            src={pridobivki2} alt='placeholder' />
+            src={pridobivki2} alt='placeholder'   /><p className=" text-xl font-bold p-6   ">
+              Физичка Активност 
+            </p>
+             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5  rounded">
+               Дознај Повеќе
+            </button>
           </li>
-          <li>
+          <li className=" bg-white w-[380px] h-[550px] p-14  border-blue-400 border-8 justify-center items-center text-center">
             <Image 
-            src={pridobivki3} alt='placeholder'/>
+            src={pridobivki3} alt='placeholder'/> <p className=" text-xl font-bold p-6 ">
+              Духовен Развој</p>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded ">
+                Дознај Повеќе
+            </button>
           </li>
         </ul>
       </div>
