@@ -1,6 +1,7 @@
 
 import Head from 'next/head'
 import Image,{ImageProps} from 'next/image'
+import { FiArrowRight } from 'react-icons/fi';
 import logo from '../public/logo.png'
 import pridobivki1 from '../public/pridobivki1.png'
 import pridobivki2 from '../public/pridobivki2.png'
@@ -75,29 +76,33 @@ export default function Home() {
         <h2  className='text-white text-7xl text-center underline-offset-1'> за тебе!!!</h2>
         <ul className=" flex-col grid grid-cols-2 grid-flow-col gap-2 p-36 ">
 
-          <li className=" bg-white w-[380px] h-[550px] p-10 border-blue-400 border-8 justify-center items-center text-center ">
+          <li className=" bg-white w-[380px] h-[590px] p-10 border-blue-400 border-8 justify-center items-center text-center ">
             <Image
-             src={pridobivki1} alt='placeholder' /> <p  className=" text-xl font-bold p-12 ">
-              Ментално Здравје</p>
-               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-6  rounded">
-              Дознај Повеќе
+             src={pridobivki1} alt='placeholder' /> <span  className=" text-xl font-bold p-12 ">
+              Ментално Здравје</span> <span>Lorem ipsum dolor sit, a dsnsdsb ksnkjsd</span>  
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded w-44  " > 
+                <span className="mr-2">Дознај Повеќе </span> 
+                <span><FiArrowRight className="ml-auto" /></span>
             </button>
           </li>
-          <li className=" bg-white w-[380px] h-[550px]  p-14  border-blue-400 border-8 justify-center items-center text-center">
+          <li className=" bg-white w-[380px] h-[590px]  p-14  border-blue-400 border-8 justify-center items-center text-center">
             <Image 
-            src={pridobivki2} alt='placeholder'   /><p className=" text-xl font-bold p-6   ">
+            src={pridobivki2} alt='placeholder'   /><span className=" text-xl font-bold p-6   ">
               Физичка Активност 
-            </p>
-             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5  rounded">
-               Дознај Повеќе
+            </span> <span>Lorem ipsum dolor sit, a dsnsdsb ksnkjsd</span>  
+             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded  " > 
+                <span className="mr-2">Дознај Повеќе </span> 
+                <span><FiArrowRight className="ml-auto" /></span>
             </button>
           </li>
-          <li className=" bg-white w-[380px] h-[550px] p-14  border-blue-400 border-8 justify-center items-center text-center">
+          <li className=" bg-white w-[380px] h-[590px] p-14  border-blue-400 border-8 justify-center items-center text-center">
             <Image 
-            src={pridobivki3} alt='placeholder'/> <p className=" text-xl font-bold p-6 ">
-              Духовен Развој</p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded ">
-                Дознај Повеќе
+            src={pridobivki3} alt='placeholder'/> <span className=" text-xl font-bold p-6 ">
+              Духовен Развој</span>
+              <span>Lorem ipsum dolor sit, a dsnsdsb ksnkjsd</span>      
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-5 rounded  " > 
+                <span className="mr-2">Дознај Повеќе </span> 
+                <span><FiArrowRight className="ml-auto" /></span>
             </button>
           </li>
         </ul>
