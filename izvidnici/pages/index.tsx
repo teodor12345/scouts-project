@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Image,{ImageProps} from 'next/image'
 import { FiArrowRight } from 'react-icons/fi';
+import HeaderBlock from '../src/components/HeaderBlock'
 import logo from '../public/logo.png'
 import pridobivki1 from '../public/pridobivki1.png'
 import pridobivki2 from '../public/pridobivki2.png'
